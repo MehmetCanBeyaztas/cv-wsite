@@ -1,0 +1,47 @@
+.ozlusoz-main{
+    background-color:#565594;
+    height: 35vh;
+    display: flex;
+    align-items: center;
+}
+
+.soz{
+    font-weight: bolder;
+    color: white;
+    font-size: 2rem;
+}
+
+.soz-sahibi{
+    color: white;
+    font-size: 1.3rem;
+}
+
+@media (max-width: 992px){
+    .soz{
+        font-size: 1.5rem;
+    }
+    .soz-sahibi{
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 768px){
+    .soz{
+        font-size: 1.3rem;
+    }
+    .soz-sahibi{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 576px){
+    .soz{
+        font-size: 1rem;
+    }
+    .soz-sahibi{
+        font-size: .90rem;
+    }
+    .br{
+        display: none;
+    }
+}

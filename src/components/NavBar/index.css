@@ -1,0 +1,88 @@
+.navbar-main{
+    background-color: rgba(242, 245, 247, .5);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    width: 100%;
+    top:0;
+    padding:  0 3rem;
+    z-index: 10;
+}
+
+.row{
+    align-items: center;
+}
+
+.logo{
+    color: #565594;
+    display: flex;
+    transition: .3s;
+}
+
+.mcb{
+    display: flex;
+}
+
+.mcb:hover .m:after{
+    /* transition: 0.3s; */
+    content: 'ehmet';
+    
+}
+
+.mcb:hover .c:after{
+    content: 'an';
+}
+
+.mcb:hover .b:after{
+    content: 'eyaztaş';
+}
+
+.nav-ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-ul li {
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+
+.nav-btn{
+    text-decoration: none;
+    margin: 0 0.5rem;
+    color: #565594;
+    border-bottom: transparent solid 2px;
+    padding: 1rem 1rem .5rem;
+    font-weight: 500;
+}
+
+.nav-btn:hover{
+    border-bottom: #565594 solid 2px;
+    background-color: #565594;
+    color: #f2f5f7;
+    transition: 0.6s;
+    border-radius: 20px 20px 0 0;
+  
+}
+
+@media (max-width: 992px){
+ .links{
+    display: none;
+ }
+ 
+ .logo{
+    width: 100% !important;
+    justify-content: center;
+ }
+}
+
+
+
+
+

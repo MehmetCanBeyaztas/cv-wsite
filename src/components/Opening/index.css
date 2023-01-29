@@ -1,0 +1,53 @@
+.main-opening{
+    background-color: rgba(242, 245, 247, .5);
+    height: 100vh;
+}
+
+.middle-texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 75vh;
+}
+
+.middle-texts:hover{
+    cursor:default;
+}
+
+.middle-text{
+    font-weight:600;
+}
+
+.middle-text-name{
+    color: #565594;
+    font-weight: bolder;
+    
+}
+
+span{
+    transition: .3s;
+}
+
+.middle-text-name:hover span{
+    color: rgba(242, 245, 247, .5);
+}
+
+.img{
+    width: 100%;
+    height: auto;
+    transition: all .3s
+}
+
+.img:hover{
+    transform: translateY(-1rem)
+}
+
+@media (max-width:992px){
+    .middle-img{
+        display: none;
+    }
+
+    .middle-texts{
+        align-items: center;
+    }
+}

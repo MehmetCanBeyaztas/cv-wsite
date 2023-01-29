@@ -1,0 +1,20 @@
+.main-experience{
+  background-color: rgba(242, 245, 247, .5);
+  margin-top: 3rem;
+  padding-bottom: 10rem;
+}
+
+.experience-row{
+    display: flex;
+    align-items: flex-start;
+    padding-top: 8rem;
+}
+
+@media (max-width: 768px){
+  .experience-row .col-4{
+    width: 100%;
+  }
+  .experience-row .col-8{
+    width: 100%;
+  }
+}
