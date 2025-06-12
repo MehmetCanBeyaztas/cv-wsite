@@ -8,25 +8,28 @@ function background() {
             <div className='row background-row'>
                 <div className='col-6'>
                     <h4 className='text-muted'>- Ben Kimim?</h4>
-                    <p className='lead'>Ben Mehmet Can Beyaztaş. Ankara Yıldırım Beyazıt Üniversitesi Yönetim Bilişim Sistemleri 4.sınıf öğrencisiyim. Boş zamanlarımda kendimi alanım ile geliştirmeye çalışıyorum. Kodlarla uğraşmaktan hoşlanıyor ve kendimi bu alanda geliştiriyorum. Bu bağlamda şimdilik kendimi geliştirmeye adadığım alan UI/UX ve Front-End Develop. Arta kalan diğer zamanlarımda ise üniversitemin tiyatro kulübü ile amatör ama profesyonel bir ruhla oyunlarımızı sergilemek amacıyla çalışmalar düzenliyor ve seyirci ile buluşuyoruz</p>
+                    <p className='lead'>Ben Mehmet Can Beyaztaş. 2023 yılında üniversiteden mezum olduğumdan beri ABAP Uygulama Danışmanı olarak bir çok projede yer aldım. Kendimi bu alanda geliştirmek ve kariyer olarak ilerletmek istiyorum</p>
                 </div>
                 <div className='col-3'>
                     <h4 className='text-muted'>- Yetenekler</h4>
                     <ul className='back-ul'>
+                        <li>ABAP</li>
+                        <li>SAP ERP</li>
+                        <li>SQL</li>
+                        <li>Adobeform</li>
+                        <li>Smartform</li>
                         <li>HTML</li>
                         <li>CSS</li>
-                        <li>JavaScript</li>
                         <li>Bootstrap</li>
                         <li>React.js</li>
-                        <li>Next.js</li>
                     </ul>
                 </div>
             </div>
             <div className='row row-img'>
                 <div className='col-3'>
-                <img src={require('../../assets/takim.jpg')} className='back-img' />
+                <img src={require('../../assets/man.jpg')} className='back-img' />
                 </div>
-                <div className='col-5'>
+                <div className='col-4'>
                 <img src={require('../../assets/middle.jpg')} className='back-img img-x' />
                 </div>
                 <div className='col-3'>

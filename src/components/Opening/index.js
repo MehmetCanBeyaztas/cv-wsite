@@ -12,11 +12,11 @@ function opening() {
                 <h1 className='middle-text-name'>M<span>ehmet</span> C<span>an</span> B<span>eyaztaş</span></h1>
                 <br/>
                 <br/>
-                <h1 className='middle-text'>Jr. Frontend Developer</h1>
+                <h1 className='middle-text'>ABAP Uygulama Danışmanı</h1>
 
             </div>
             <div className='col middle-img'>
-            <img src={require('../../assets/capa-front-end.png')} className='img' />
+            <img src={require('../../assets/developer-activity-rafiki.png')} className='img' />
             </div>
         </div>
     </div>

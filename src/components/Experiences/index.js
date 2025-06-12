@@ -10,6 +10,11 @@ function experience() {
                 <h4 className='text-muted'>- İş Deneyimleri</h4>
             </div>
             <div className='col-8'>
+                <h4>ABAP Uygulama Danışmanı</h4>
+                <p>Arete Consulting / May 2023 - Devam Ediyor</p>
+                <p className='lead'>Burada bir çok S4H projesinde yer alma fırsatı yakaladım. Yer aldığım projelerde genel olarak rapor ekranlarının baştan uca tasarlanması ve Adobeform kullanılarak yapılan çıktı işlemlerinin tasarımının ve çıktsının alınması tarafında çalıştım ve çalışmaya da devam ediyorum.</p>
+                <br/>
+                <br/>              
                 <h4>Jr. Frontend Developer</h4>
                 <p>TrAir Teknoloji Yatırımları A.Ş. / Kas 2022 - Ara 2022</p>
                 <p className='lead'>Burada Frontend ile alakalı bir çok şey öğrendim. Her ne kadar kısa bir süre çalışma fırsatı bulmuş olsam da bana iş deneyimi konusunda bir çok şey kattı.</p>
@@ -33,7 +38,7 @@ function experience() {
                 <h4>Ankara Yıldırım Beyazıt Üniversitesi</h4>
                 <p>Managment Information System (ENG)</p>
                 <p>Lisans Eğitimi - 2018 - 2023</p>
-                <p>AGNO: 3,24</p>
+                <p>AGNO: 3,30</p>
             </div>
         </div>
       </div>
